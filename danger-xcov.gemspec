@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'xcov', '>= 1.8.0'
   spec.add_development_dependency 'bundler', '~> 2.3.9'
   spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'git', '~>1.11.0'
 end
