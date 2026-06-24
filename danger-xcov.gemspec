@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'danger', '9.5.3'
+  spec.add_dependency 'danger', '9.6.0'
   spec.add_dependency 'xcov', '1.9.0'
   spec.add_development_dependency 'bundler', '2.7.2'
   spec.add_development_dependency 'rake', '13.4.2'
